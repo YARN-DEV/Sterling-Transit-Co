@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="28" height="28" role="img" aria-labelledby="stcLogoTitle stcLogoDesc" fill="none">
+  <title id="stcLogoTitle">Sterling Transit Co logo</title>
+  <desc id="stcLogoDesc">Rounded square containing an S-shaped road with center lane markings</desc>
+  <!-- Badge -->
+  <rect x="2.5" y="2.5" width="59" height="59" rx="12" ry="12" stroke="currentColor" stroke-width="5"></rect>
+  <!-- S-shaped road -->
+  <path d="M52 16c-9 0-12 8-20 8s-11-8-20-8" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path>
+  <path d="M12 48c9 0 12-8 20-8s11 8 20 8" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path>
+  <!-- Center lane markings along the S -->
+  <path d="M52 16c-9 0-12 8-20 8s-11-8-20-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6" opacity="0.9"></path>
+  <path d="M12 48c9 0 12-8 20-8s11 8 20 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6" opacity="0.9"></path>
+</svg>

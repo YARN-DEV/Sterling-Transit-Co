@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html, body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		overflow-x: hidden;
+	}
+}
+
+@theme {
+	--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+	/* Adjustable navbar height */
+	--nav-h: 7rem; /* change to 8rem, 120px, etc. */
+
+	/* Book button sizing */
+	--btn-h: 4rem;          /* overall height */
+	--btn-min-w: 128px;     /* min width */
+		--btn-radius: 12px;     /* corner radius */
+
+	/* Divider sizing */
+	--divider-w: 6rem;      /* width of the small divider */
+	--divider-h: 0.75rem;   /* height/thickness */
+
+	/* Hero section height */
+	--hero-h: 1100px; /* increased to ensure right column fully contains heading, paragraph, and buttons */
+	--hero-bottom-space: 8rem; /* increased extra empty space below hero */
+		--hero-left-pad: 3rem; /* left padding for left hero panel */
+		--hero-right-pad: 3rem; /* left padding inside right hero panel */
+
+	/* Logo sizes */
+	--logo-badge: 4rem;     /* container square (e.g., 4rem ~ 64px) */
+	--logo-svg: 28px;       /* SVG icon size */
+
+		/* Image wrapper radius */
+		--img-radius: 1.25rem;  /* ~20px; adjust to taste (e.g., 1rem, 2rem) */
+}
+

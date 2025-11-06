@@ -1,0 +1,39 @@
+/* Footer styles for homepage */
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+.footer-main {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+
+.footer-logo {
+  margin-bottom: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  padding: 12px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer-content {
+  font-size: 1rem;
+  color: #ccc;
+}

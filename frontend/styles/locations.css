@@ -1,0 +1,25 @@
+/* Locations section styles for homepage */
+
+.locations-section {
+  width: 100%;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.locations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.location-box {
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+  border: 2px solid #e5e7eb;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
